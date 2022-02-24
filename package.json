@@ -8,6 +8,7 @@
   },
   "keywords": [],
   "author": "",
+  "homepage": "https://melsiir.github.io/iss-coordinates",
   "license": "ISC",
   "dependencies": {
     "eruda": "^2.4.1",
