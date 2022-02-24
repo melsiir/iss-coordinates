@@ -1,0 +1,17 @@
+{
+  "name": "iss",
+  "version": "1.0.0",
+  "description": "give the latitude and longtitude of International Space Station on map using wheretheiss.at api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eruda": "^2.4.1",
+    "leaflet": "^1.7.1",
+    "node-fetch": "^3.2.0"
+  }
+}

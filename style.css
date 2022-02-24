@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --height: 85vh;
+  --width: 80vw;
+  --margin: 1em;
+}
+
+.iss {
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+#map {
+  height: var(--height);
+  margin: var(--margin);
+  border-radius: 5px;
+}
+
+.info {
+  padding-inline: 1em;
+}
+
+.info p {
+  margin-block: .75em;
+   width: 100%;
+  text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+  :root {
+    --height: 60vh;
+    --margin: 1.5rem;
+  }
+}
